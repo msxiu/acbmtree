@@ -1,5 +1,8 @@
+#include "llqvarymem.h"
+
+#include "libproperties.h"
 #include "llqparameters.h"
-#include "testacbm.h"
+#include "acbmtree.h"
 
 static acbmtree_t acbm;//ACBM匹配对象
 
