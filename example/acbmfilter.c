@@ -49,6 +49,7 @@ int main(int argc, const char* argv[]) {
             for(;i<argc; i++) {//遍历文件,提交处理
                 acbmtree_file(argv[i]);
             }
+            acbmtree_reclaim(&acbm);
         }
     }
     return 0;
